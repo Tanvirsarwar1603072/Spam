@@ -1,7 +1,7 @@
 import pyautogui
 import time
 
-a = ["Hackerbuoooyyyyy"]
+a = ["Random message!"]
 time.sleep(5)
 for i in range(30):
     pyautogui.typewrite(a[i%1])
